@@ -66,9 +66,7 @@ public class Car extends Vehicle {
     private int currentGear;
     private int seats;
 
-    void getName(String name){
 
-    }
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
         super(name);
         //Hint: Car extends Vehicle
