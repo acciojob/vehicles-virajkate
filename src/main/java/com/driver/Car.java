@@ -70,7 +70,7 @@ public class Car extends Vehicle {
 
     }
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
-        super();
+        super(name);
         //Hint: Car extends Vehicle
         this.wheels=wheels;
         this.doors=doors;
